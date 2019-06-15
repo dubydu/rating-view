@@ -1,8 +1,8 @@
 {
   "name": "SI1-RatingView",
   "version": "0.1.0",
-  "summary": "A short description of SI1-RatingView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "What a amazing RatingView - SI1-RatingView",
+  "description": "# This description is used to generate tags and improve search results.\n#   * Think: What does it do? Why did you write it? What is the focus?\n#   * Try to keep it short, snappy and to the point.\n#   * Write the description between the DESC delimiters below.\n#   * Finally, don't worry about the indent, CocoaPods strips it!",
   "homepage": "https://github.com/SI-Du/SI1-RatingView",
   "license": {
     "type": "MIT",
@@ -18,5 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SI1-RatingView/Classes/**/*"
+  "swift_versions": [
+    "3.2",
+    "4.0",
+    "4.2",
+    "5.0"
+  ],
+  "source_files": "SI1-RatingView/Classes/**/*",
+  "swift_version": "5.0"
 }

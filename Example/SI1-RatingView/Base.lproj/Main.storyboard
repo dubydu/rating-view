@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SI1-RatingView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SI1_RatingView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +18,63 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aFM-S2-C3W">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpM-ee-3Yp" customClass="RatingView" customModule="SI1_RatingView">
+                                        <rect key="frame" x="51.5" y="308.5" width="240" height="50"/>
+                                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="egb-hl-hJT"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01a-Bb-4Jk">
+                                        <rect key="frame" x="113" y="195" width="117" height="18"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Current rating value">
+                                                <attributes>
+                                                    <font key="NSFont" size="13" name="Avenir-Roman"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzn-55-hi8">
+                                        <rect key="frame" x="171.5" y="243" width="0.0" height="0.0"/>
+                                        <attributedString key="attributedText"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="bpM-ee-3Yp" firstAttribute="centerY" secondItem="aFM-S2-C3W" secondAttribute="centerY" id="E95-Ji-usA"/>
+                                    <constraint firstItem="bpM-ee-3Yp" firstAttribute="centerX" secondItem="aFM-S2-C3W" secondAttribute="centerX" id="IAJ-Uw-nZq"/>
+                                    <constraint firstItem="uzn-55-hi8" firstAttribute="centerX" secondItem="aFM-S2-C3W" secondAttribute="centerX" id="gQa-hF-JXH"/>
+                                    <constraint firstItem="bpM-ee-3Yp" firstAttribute="top" secondItem="uzn-55-hi8" secondAttribute="bottom" constant="65.5" id="jKf-b1-Zpj"/>
+                                    <constraint firstItem="bpM-ee-3Yp" firstAttribute="width" secondItem="aFM-S2-C3W" secondAttribute="width" multiplier="0.7" id="ofa-1A-SA4"/>
+                                    <constraint firstItem="uzn-55-hi8" firstAttribute="top" secondItem="01a-Bb-4Jk" secondAttribute="bottom" constant="30" id="qvn-kC-n6R"/>
+                                    <constraint firstItem="01a-Bb-4Jk" firstAttribute="centerX" secondItem="aFM-S2-C3W" secondAttribute="centerX" id="u1a-We-yD9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aFM-S2-C3W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Jnr-Oa-VTc"/>
+                            <constraint firstItem="aFM-S2-C3W" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="LPM-jh-oVM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aFM-S2-C3W" secondAttribute="trailing" id="qGd-xi-Jon"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="aFM-S2-C3W" secondAttribute="bottom" id="uxn-dg-jh2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ratingValueLabel" destination="uzn-55-hi8" id="gtd-1C-dMR"/>
+                        <outlet property="ratingView" destination="bpM-ee-3Yp" id="y02-qt-0Dd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>
