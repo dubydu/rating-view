@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SI1-RatingView_Example' do
+  pod 'SI1-RatingView', :path => '../'
+
+  target 'SI1-RatingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
