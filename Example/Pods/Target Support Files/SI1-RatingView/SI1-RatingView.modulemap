@@ -1,0 +1,6 @@
+framework module SI1_RatingView {
+  umbrella header "SI1-RatingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

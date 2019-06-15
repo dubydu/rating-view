@@ -1,0 +1,16 @@
+PODS:
+  - SI1-RatingView (0.1.0)
+
+DEPENDENCIES:
+  - SI1-RatingView (from `../`)
+
+EXTERNAL SOURCES:
+  SI1-RatingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SI1-RatingView: d285b636a002465dcf002d6eb4666b7f6519d5ba
+
+PODFILE CHECKSUM: 9e6821e66495fe5fb193c7d86f6d19c7ab270eec
+
+COCOAPODS: 1.7.1

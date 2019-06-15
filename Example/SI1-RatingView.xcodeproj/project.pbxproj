@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30D34B552F08E5D025396B64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30D34B552F08E5D025396B64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3D7C08692E18E89B83177322 /* Pods_SI1_RatingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SI1_RatingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SI1-RatingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SI1-RatingView_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		6807F856D7DE1C165B3109DA /* Pods-SI1-RatingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8D682E4FC9ADA7679E157B0F /* Pods-SI1-RatingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A275C69D0B30D188AB7D8579 /* Pods_SI1_RatingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SI1_RatingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A789FAF2A8D151F3BB75446B /* SI1-RatingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "SI1-RatingView.podspec"; path = "../SI1-RatingView.podspec"; sourceTree = "<group>"; };
+		A789FAF2A8D151F3BB75446B /* SI1-RatingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SI1-RatingView.podspec"; path = "../SI1-RatingView.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE0FB312636BEDABEE564B0D /* Pods-SI1-RatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E1F91F649AB61C87498B7027 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E1F91F649AB61C87498B7027 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F2DCE9C2D42A1D329F952ED8 /* Pods-SI1-RatingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Example.release.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				8D682E4FC9ADA7679E157B0F /* Pods-SI1-RatingView_Tests.debug.xcconfig */,
 				6807F856D7DE1C165B3109DA /* Pods-SI1-RatingView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

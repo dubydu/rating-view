@@ -1,0 +1,22 @@
+{
+  "name": "SI1-RatingView",
+  "version": "0.1.0",
+  "summary": "A short description of SI1-RatingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SI-Du/SI1-RatingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SI-Du": "du.bv@neo-lab.vn"
+  },
+  "source": {
+    "git": "https://github.com/SI-Du/SI1-RatingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SI1-RatingView/Classes/**/*"
+}
