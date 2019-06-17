@@ -7,26 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05D430727D8E9420D6C5FF4194D9EC75 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103B85F4312F13B68C28198E5B77205 /* RatingView.swift */; };
-		133602754FA00613B847AB817BF0C262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		157A1C061BD2334A712B05422136CDD9 /* SI1-RatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C49166D866B4004611CC6D1DC9A621 /* SI1-RatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15B4F5EB6DD1C4DFC3FC963F6EF73803 /* Pods-SI1-RatingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E03D779E5671212EA9A621BE28619BD0 /* Pods-SI1-RatingView_Example-dummy.m */; };
-		24C3A073A905C9BC72FC5DA7E98062E4 /* SI1-RatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E1B56591C0DF5F91CA08166A8A8273 /* SI1-RatingView-dummy.m */; };
-		5630228970742FB45FDB5537EEEE846C /* Pods-SI1-RatingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B539952E10E661989725DBB809A830 /* Pods-SI1-RatingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D430727D8E9420D6C5FF4194D9EC75 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042EDF103AD20818BD1C45F7FC03686 /* RatingView.swift */; };
+		157A1C061BD2334A712B05422136CDD9 /* SI1-RatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEED9B6F57A842D0827730E2ADAAC50 /* SI1-RatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15B4F5EB6DD1C4DFC3FC963F6EF73803 /* Pods-SI1-RatingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE220272773FC29BF769447C034E9BC8 /* Pods-SI1-RatingView_Example-dummy.m */; };
+		24C3A073A905C9BC72FC5DA7E98062E4 /* SI1-RatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7A70FB1E39469AD9BAA64FF775E6F7 /* SI1-RatingView-dummy.m */; };
 		A0D778C6E6A646839AF5A7B5F5D59ED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B95045211AEA0D8EAEAC675086162097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BEBF04927256812005716731337C003B /* Pods-SI1-RatingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AEF201167C71D7DB6D99AEAB11FDB9 /* Pods-SI1-RatingView_Tests-dummy.m */; };
-		C55B4378DC3D4CD5D924FEAEAFC6107A /* Pods-SI1-RatingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FAE26FC32CAD121BB748BA15DF2A3D1 /* Pods-SI1-RatingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55B4378DC3D4CD5D924FEAEAFC6107A /* Pods-SI1-RatingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEF73C28C848E7B6B4009762212B694 /* Pods-SI1-RatingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BDA1EE41DC1D9912810F5B36EA8E91E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A409FD3E1B1E8BE8AC33344AE39CCA8D;
-			remoteInfo = "Pods-SI1-RatingView_Example";
-		};
 		C1D6AC138CEB3C61C77722F373BD24E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -37,49 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AECCF4EEDC087359C022165439D8566 /* Pods-SI1-RatingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SI1-RatingView_Example-Info.plist"; sourceTree = "<group>"; };
-		15AC140213187305973D0CEBC4A515E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		22B539952E10E661989725DBB809A830 /* Pods-SI1-RatingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SI1-RatingView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		27C49166D866B4004611CC6D1DC9A621 /* SI1-RatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SI1-RatingView-umbrella.h"; sourceTree = "<group>"; };
+		00764A636B000C2B717BBF5F37B4C7DC /* SI1-RatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SI1-RatingView.xcconfig"; sourceTree = "<group>"; };
+		2BEF73C28C848E7B6B4009762212B694 /* Pods-SI1-RatingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SI1-RatingView_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5327BF8B22A3CFA9D7E178A3096E97A9 /* Pods-SI1-RatingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SI1-RatingView_Example.modulemap"; sourceTree = "<group>"; };
-		58067EFC0F862CB6000CA63FC41F11AA /* SI1-RatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SI1-RatingView.modulemap"; sourceTree = "<group>"; };
-		591C7B4C5638EC0A18F67DEE599DEDD2 /* SI1-RatingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SI1-RatingView.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5D0D476975475C2313B861D832F76544 /* SI1-RatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SI1-RatingView-prefix.pch"; sourceTree = "<group>"; };
-		5FAE26FC32CAD121BB748BA15DF2A3D1 /* Pods-SI1-RatingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SI1-RatingView_Example-umbrella.h"; sourceTree = "<group>"; };
-		652BE2D0C7361C82881130963D434136 /* Pods-SI1-RatingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SI1-RatingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7103B85F4312F13B68C28198E5B77205 /* RatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = "SI1-RatingView/Classes/RatingView.swift"; sourceTree = "<group>"; };
-		84B3A67EB364FC1AFA2AB65431C682E3 /* Pods-SI1-RatingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SI1-RatingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8BF30BD67018A93A7966D14A5CE291D2 /* SI1-RatingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SI1-RatingView-Info.plist"; sourceTree = "<group>"; };
-		8EBBA31BA8F4383D880BDB5F43A48C3D /* SI1-RatingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SI1-RatingView.xcconfig"; sourceTree = "<group>"; };
-		91AEF201167C71D7DB6D99AEAB11FDB9 /* Pods-SI1-RatingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SI1-RatingView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5042EDF103AD20818BD1C45F7FC03686 /* RatingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = "SI1-RatingView/Classes/RatingView.swift"; sourceTree = "<group>"; };
+		5338E565AD768277E8FB160455EC71B3 /* Pods-SI1-RatingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SI1-RatingView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6D4DCB1CD2CFFF91DF74630A40B5F596 /* Pods-SI1-RatingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SI1-RatingView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D7A70FB1E39469AD9BAA64FF775E6F7 /* SI1-RatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SI1-RatingView-dummy.m"; sourceTree = "<group>"; };
+		7D3B2B3FCFF05BD73C22C0088F174EFC /* Pods-SI1-RatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SI1-RatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		933BFD07A7DB1A19E0CF6DF534E76117 /* Pods-SI1-RatingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SI1-RatingView_Example.modulemap"; sourceTree = "<group>"; };
+		969F9928E64B314EA72B17A719AA8887 /* Pods-SI1-RatingView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SI1-RatingView_Example-Info.plist"; sourceTree = "<group>"; };
+		970B8776F4B32B480ADA178DF949C6A7 /* Pods-SI1-RatingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SI1-RatingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A942DE1C53A4CFE95B8395B74580AFF4 /* Pods-SI1-RatingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SI1-RatingView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ACE9843CC6D67B1F5A7B545559E34F36 /* Pods_SI1_RatingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SI1_RatingView_Tests.framework; path = "Pods-SI1-RatingView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B11F99C277D733425CBFFE923196EC12 /* Pods-SI1-RatingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SI1-RatingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B32E4AD568F068A7BE7A0CA9AC825F24 /* Pods-SI1-RatingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SI1-RatingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA8BEC967218E14C5DB51A2C3FD6465F /* Pods-SI1-RatingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SI1-RatingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D0E1B56591C0DF5F91CA08166A8A8273 /* SI1-RatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SI1-RatingView-dummy.m"; sourceTree = "<group>"; };
-		D4196F2948F0279F07D08946A8A96F09 /* Pods-SI1-RatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SI1-RatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A6DE54D607467A9B884543954FB21820 /* Pods-SI1-RatingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SI1-RatingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDDD772A51714F5598A7FCBECC7B6105 /* SI1-RatingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SI1-RatingView-Info.plist"; sourceTree = "<group>"; };
+		CE220272773FC29BF769447C034E9BC8 /* Pods-SI1-RatingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SI1-RatingView_Example-dummy.m"; sourceTree = "<group>"; };
 		DA91EFC1C8EB65181AD46116B96964CA /* SI1_RatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SI1_RatingView.framework; path = "SI1-RatingView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E03D779E5671212EA9A621BE28619BD0 /* Pods-SI1-RatingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SI1-RatingView_Example-dummy.m"; sourceTree = "<group>"; };
-		E0946979A6A6B7D9F4D2490EB9BA936F /* Pods-SI1-RatingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SI1-RatingView_Tests.modulemap"; sourceTree = "<group>"; };
-		E3ED9DD5DD3506051B0473735B0526FA /* Pods-SI1-RatingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SI1-RatingView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E57AC82A06A65F041663665A84D2143B /* Pods-SI1-RatingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SI1-RatingView_Tests-Info.plist"; sourceTree = "<group>"; };
+		DE62419E0A3B3DCC2856C9AEF48D2D3F /* SI1-RatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SI1-RatingView.modulemap"; sourceTree = "<group>"; };
+		DFF325F143204C76C7547DC9A45A5228 /* SI1-RatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SI1-RatingView-prefix.pch"; sourceTree = "<group>"; };
+		EAEED9B6F57A842D0827730E2ADAAC50 /* SI1-RatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SI1-RatingView-umbrella.h"; sourceTree = "<group>"; };
 		EC9AC5A61527997BE1B49972966479D1 /* Pods_SI1_RatingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SI1_RatingView_Example.framework; path = "Pods-SI1-RatingView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EECCDAD043F44512E00BFABF1B18DAB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EF984C714F94F166C5D1331776E8B64B /* Pods-SI1-RatingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SI1-RatingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03B7DEF5BFBE5602935D8B9048F32358 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				133602754FA00613B847AB817BF0C262 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2876286DEBDCE78A75AD58495723AD57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,70 +69,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D0EC3C189FEC8E3C5CE585067C64425 /* Pods-SI1-RatingView_Example */ = {
+		19E2B87CCA8EE3BCE0D8F316AACAFB5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5327BF8B22A3CFA9D7E178A3096E97A9 /* Pods-SI1-RatingView_Example.modulemap */,
-				EF984C714F94F166C5D1331776E8B64B /* Pods-SI1-RatingView_Example-acknowledgements.markdown */,
-				84B3A67EB364FC1AFA2AB65431C682E3 /* Pods-SI1-RatingView_Example-acknowledgements.plist */,
-				E03D779E5671212EA9A621BE28619BD0 /* Pods-SI1-RatingView_Example-dummy.m */,
-				A942DE1C53A4CFE95B8395B74580AFF4 /* Pods-SI1-RatingView_Example-frameworks.sh */,
-				0AECCF4EEDC087359C022165439D8566 /* Pods-SI1-RatingView_Example-Info.plist */,
-				5FAE26FC32CAD121BB748BA15DF2A3D1 /* Pods-SI1-RatingView_Example-umbrella.h */,
-				D4196F2948F0279F07D08946A8A96F09 /* Pods-SI1-RatingView_Example.debug.xcconfig */,
-				E3ED9DD5DD3506051B0473735B0526FA /* Pods-SI1-RatingView_Example.release.xcconfig */,
+				F78A4BF9410E86EACAD0B4E1B02E1AF0 /* SI1-RatingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B0C18CBED50168C37B181A4A9B0F001 /* Pods-SI1-RatingView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				933BFD07A7DB1A19E0CF6DF534E76117 /* Pods-SI1-RatingView_Example.modulemap */,
+				970B8776F4B32B480ADA178DF949C6A7 /* Pods-SI1-RatingView_Example-acknowledgements.markdown */,
+				A6DE54D607467A9B884543954FB21820 /* Pods-SI1-RatingView_Example-acknowledgements.plist */,
+				CE220272773FC29BF769447C034E9BC8 /* Pods-SI1-RatingView_Example-dummy.m */,
+				6D4DCB1CD2CFFF91DF74630A40B5F596 /* Pods-SI1-RatingView_Example-frameworks.sh */,
+				969F9928E64B314EA72B17A719AA8887 /* Pods-SI1-RatingView_Example-Info.plist */,
+				2BEF73C28C848E7B6B4009762212B694 /* Pods-SI1-RatingView_Example-umbrella.h */,
+				7D3B2B3FCFF05BD73C22C0088F174EFC /* Pods-SI1-RatingView_Example.debug.xcconfig */,
+				5338E565AD768277E8FB160455EC71B3 /* Pods-SI1-RatingView_Example.release.xcconfig */,
 			);
 			name = "Pods-SI1-RatingView_Example";
 			path = "Target Support Files/Pods-SI1-RatingView_Example";
 			sourceTree = "<group>";
 		};
-		664ECA7DDC08C854574D44A8D1406C7B /* Support Files */ = {
+		28FCE2F3F457E032B01F0CEA4272E859 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				58067EFC0F862CB6000CA63FC41F11AA /* SI1-RatingView.modulemap */,
-				8EBBA31BA8F4383D880BDB5F43A48C3D /* SI1-RatingView.xcconfig */,
-				D0E1B56591C0DF5F91CA08166A8A8273 /* SI1-RatingView-dummy.m */,
-				8BF30BD67018A93A7966D14A5CE291D2 /* SI1-RatingView-Info.plist */,
-				5D0D476975475C2313B861D832F76544 /* SI1-RatingView-prefix.pch */,
-				27C49166D866B4004611CC6D1DC9A621 /* SI1-RatingView-umbrella.h */,
+				DE62419E0A3B3DCC2856C9AEF48D2D3F /* SI1-RatingView.modulemap */,
+				00764A636B000C2B717BBF5F37B4C7DC /* SI1-RatingView.xcconfig */,
+				6D7A70FB1E39469AD9BAA64FF775E6F7 /* SI1-RatingView-dummy.m */,
+				BDDD772A51714F5598A7FCBECC7B6105 /* SI1-RatingView-Info.plist */,
+				DFF325F143204C76C7547DC9A45A5228 /* SI1-RatingView-prefix.pch */,
+				EAEED9B6F57A842D0827730E2ADAAC50 /* SI1-RatingView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SI1-RatingView";
+			path = "../Target Support Files/SI1-RatingView";
 			sourceTree = "<group>";
 		};
-		7447A6FB122BD57837325F799904B148 /* Products */ = {
+		552552BC3131E0DC53148E4BFCC15E6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				EC9AC5A61527997BE1B49972966479D1 /* Pods_SI1_RatingView_Example.framework */,
-				ACE9843CC6D67B1F5A7B545559E34F36 /* Pods_SI1_RatingView_Tests.framework */,
 				DA91EFC1C8EB65181AD46116B96964CA /* SI1_RatingView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD1765ED36FB03997E937EC962585B69 /* Targets Support Files */ = {
+		97032FD18126EF4CB25055626034C966 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D0EC3C189FEC8E3C5CE585067C64425 /* Pods-SI1-RatingView_Example */,
-				AF7E297E5C88D892EA105DF5256D9D8A /* Pods-SI1-RatingView_Tests */,
+				1B0C18CBED50168C37B181A4A9B0F001 /* Pods-SI1-RatingView_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF7E297E5C88D892EA105DF5256D9D8A /* Pods-SI1-RatingView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E0946979A6A6B7D9F4D2490EB9BA936F /* Pods-SI1-RatingView_Tests.modulemap */,
-				B32E4AD568F068A7BE7A0CA9AC825F24 /* Pods-SI1-RatingView_Tests-acknowledgements.markdown */,
-				B11F99C277D733425CBFFE923196EC12 /* Pods-SI1-RatingView_Tests-acknowledgements.plist */,
-				91AEF201167C71D7DB6D99AEAB11FDB9 /* Pods-SI1-RatingView_Tests-dummy.m */,
-				E57AC82A06A65F041663665A84D2143B /* Pods-SI1-RatingView_Tests-Info.plist */,
-				22B539952E10E661989725DBB809A830 /* Pods-SI1-RatingView_Tests-umbrella.h */,
-				652BE2D0C7361C82881130963D434136 /* Pods-SI1-RatingView_Tests.debug.xcconfig */,
-				BA8BEC967218E14C5DB51A2C3FD6465F /* Pods-SI1-RatingView_Tests.release.xcconfig */,
-			);
-			name = "Pods-SI1-RatingView_Tests";
-			path = "Target Support Files/Pods-SI1-RatingView_Tests";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -177,10 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D9822C2FEE8EFCD03C5BA6EED2C4DBAF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7447A6FB122BD57837325F799904B148 /* Products */,
-				AD1765ED36FB03997E937EC962585B69 /* Targets Support Files */,
+				19E2B87CCA8EE3BCE0D8F316AACAFB5B /* Pods */,
+				552552BC3131E0DC53148E4BFCC15E6B /* Products */,
+				97032FD18126EF4CB25055626034C966 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,33 +152,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9822C2FEE8EFCD03C5BA6EED2C4DBAF /* Development Pods */ = {
+		F78A4BF9410E86EACAD0B4E1B02E1AF0 /* SI1-RatingView */ = {
 			isa = PBXGroup;
 			children = (
-				F14FE6A55FFF51FA08402382D5E8B275 /* SI1-RatingView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E66D23B4B75EB5F7B53206BEA0E22C95 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EECCDAD043F44512E00BFABF1B18DAB4 /* LICENSE */,
-				15AC140213187305973D0CEBC4A515E2 /* README.md */,
-				591C7B4C5638EC0A18F67DEE599DEDD2 /* SI1-RatingView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F14FE6A55FFF51FA08402382D5E8B275 /* SI1-RatingView */ = {
-			isa = PBXGroup;
-			children = (
-				7103B85F4312F13B68C28198E5B77205 /* RatingView.swift */,
-				E66D23B4B75EB5F7B53206BEA0E22C95 /* Pod */,
-				664ECA7DDC08C854574D44A8D1406C7B /* Support Files */,
+				5042EDF103AD20818BD1C45F7FC03686 /* RatingView.swift */,
+				28FCE2F3F457E032B01F0CEA4272E859 /* Support Files */,
 			);
 			name = "SI1-RatingView";
-			path = ../..;
+			path = "SI1-RatingView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,14 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C55B4378DC3D4CD5D924FEAEAFC6107A /* Pods-SI1-RatingView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C96E8C0514ABAFFCCC06A62EB2F48D4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5630228970742FB45FDB5537EEEE846C /* Pods-SI1-RatingView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,25 +184,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5CD26D9EA43D1427296F9A5405B56087 /* Pods-SI1-RatingView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A67E1A66B4BF941D4E06D616AD5C7BAB /* Build configuration list for PBXNativeTarget "Pods-SI1-RatingView_Tests" */;
-			buildPhases = (
-				4C96E8C0514ABAFFCCC06A62EB2F48D4 /* Headers */,
-				03F161F8610C87A67D989BC84094EC98 /* Sources */,
-				03B7DEF5BFBE5602935D8B9048F32358 /* Frameworks */,
-				82BB834CD1BFF3D685A1BAC90EAD1DC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B88C3431D0BECBB1C5CCE7FFAFAD80B5 /* PBXTargetDependency */,
-			);
-			name = "Pods-SI1-RatingView_Tests";
-			productName = "Pods-SI1-RatingView_Tests";
-			productReference = ACE9843CC6D67B1F5A7B545559E34F36 /* Pods_SI1_RatingView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A409FD3E1B1E8BE8AC33344AE39CCA8D /* Pods-SI1-RatingView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FA79C1F35B79FFF17838F9CA7E9A5A6 /* Build configuration list for PBXNativeTarget "Pods-SI1-RatingView_Example" */;
@@ -324,12 +238,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7447A6FB122BD57837325F799904B148 /* Products */;
+			productRefGroup = 552552BC3131E0DC53148E4BFCC15E6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A409FD3E1B1E8BE8AC33344AE39CCA8D /* Pods-SI1-RatingView_Example */,
-				5CD26D9EA43D1427296F9A5405B56087 /* Pods-SI1-RatingView_Tests */,
 				DDBA7DEF5A9B966D393E637EC62CE3CE /* SI1-RatingView */,
 			);
 		};
@@ -350,24 +263,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82BB834CD1BFF3D685A1BAC90EAD1DC9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		03F161F8610C87A67D989BC84094EC98 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEBF04927256812005716731337C003B /* Pods-SI1-RatingView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0F8EBF409394B3662F72CDB67A5E220C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,18 +292,12 @@
 			target = DDBA7DEF5A9B966D393E637EC62CE3CE /* SI1-RatingView */;
 			targetProxy = C1D6AC138CEB3C61C77722F373BD24E4 /* PBXContainerItemProxy */;
 		};
-		B88C3431D0BECBB1C5CCE7FFAFAD80B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SI1-RatingView_Example";
-			target = A409FD3E1B1E8BE8AC33344AE39CCA8D /* Pods-SI1-RatingView_Example */;
-			targetProxy = BDA1EE41DC1D9912810F5B36EA8E91E0 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		065B0A5467A3B3B1E46D3827438BCB03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3ED9DD5DD3506051B0473735B0526FA /* Pods-SI1-RatingView_Example.release.xcconfig */;
+			baseConfigurationReference = 5338E565AD768277E8FB160455EC71B3 /* Pods-SI1-RatingView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -423,73 +315,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4FF8E3B03074274321D0FD14EDE4F486 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 652BE2D0C7361C82881130963D434136 /* Pods-SI1-RatingView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		55C17DB8BED5D5B5D8FF330D0F17AA31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA8BEC967218E14C5DB51A2C3FD6465F /* Pods-SI1-RatingView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -630,7 +455,7 @@
 		};
 		B998ACE741F5FDCA4F41A98E9D720735 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4196F2948F0279F07D08946A8A96F09 /* Pods-SI1-RatingView_Example.debug.xcconfig */;
+			baseConfigurationReference = 7D3B2B3FCFF05BD73C22C0088F174EFC /* Pods-SI1-RatingView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -663,7 +488,7 @@
 		};
 		CAEDCAFCFDFDA1D73F6E7AED0E61F6F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EBBA31BA8F4383D880BDB5F43A48C3D /* SI1-RatingView.xcconfig */;
+			baseConfigurationReference = 00764A636B000C2B717BBF5F37B4C7DC /* SI1-RatingView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -694,7 +519,7 @@
 		};
 		EFDC16D131F62E3A770FA388EFB22586 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EBBA31BA8F4383D880BDB5F43A48C3D /* SI1-RatingView.xcconfig */;
+			baseConfigurationReference = 00764A636B000C2B717BBF5F37B4C7DC /* SI1-RatingView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -750,15 +575,6 @@
 			buildConfigurations = (
 				CAEDCAFCFDFDA1D73F6E7AED0E61F6F3 /* Debug */,
 				EFDC16D131F62E3A770FA388EFB22586 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A67E1A66B4BF941D4E06D616AD5C7BAB /* Build configuration list for PBXNativeTarget "Pods-SI1-RatingView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4FF8E3B03074274321D0FD14EDE4F486 /* Debug */,
-				55C17DB8BED5D5B5D8FF330D0F17AA31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

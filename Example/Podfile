@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'SI1-RatingView_Example' do
-  pod 'SI1-RatingView', :path => 'https://github.com/SI-Du/SI1-RatingView.git'
-
-  target 'SI1-RatingView_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  use_frameworks!
+  pod 'SI1-RatingView'
 end

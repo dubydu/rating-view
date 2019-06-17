@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A4419D6C8F79D2A07387F96 /* Pods_SI1_RatingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7C08692E18E89B83177322 /* Pods_SI1_RatingView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		DFA0DCF884FA15FF286BD486 /* Pods_SI1_RatingView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A275C69D0B30D188AB7D8579 /* Pods_SI1_RatingView_Tests.framework */; };
+		A017F87E1A5AB767AFCC6315 /* Pods_SI1_RatingView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB42A40F206DCD7A1FFCD91 /* Pods_SI1_RatingView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BB42A40F206DCD7A1FFCD91 /* Pods_SI1_RatingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SI1_RatingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D34B552F08E5D025396B64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3D7C08692E18E89B83177322 /* Pods_SI1_RatingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SI1_RatingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC96E2F436AB21540CC7795 /* Pods-SI1-RatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DFDCB802EC2542CF3A2562B /* Pods-SI1-RatingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Example.release.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SI1-RatingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SI1-RatingView_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +41,8 @@
 		607FACE51AFB9204008FA782 /* SI1-RatingView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SI1-RatingView_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6807F856D7DE1C165B3109DA /* Pods-SI1-RatingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D682E4FC9ADA7679E157B0F /* Pods-SI1-RatingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Tests/Pods-SI1-RatingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A275C69D0B30D188AB7D8579 /* Pods_SI1_RatingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SI1_RatingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789FAF2A8D151F3BB75446B /* SI1-RatingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SI1-RatingView.podspec"; path = "../SI1-RatingView.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE0FB312636BEDABEE564B0D /* Pods-SI1-RatingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1F91F649AB61C87498B7027 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F2DCE9C2D42A1D329F952ED8 /* Pods-SI1-RatingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SI1-RatingView_Example.release.xcconfig"; path = "Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4419D6C8F79D2A07387F96 /* Pods_SI1_RatingView_Example.framework in Frameworks */,
+				A017F87E1A5AB767AFCC6315 /* Pods_SI1_RatingView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA0DCF884FA15FF286BD486 /* Pods_SI1_RatingView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		201D03F71128BF3D977ED18E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3D7C08692E18E89B83177322 /* Pods_SI1_RatingView_Example.framework */,
-				A275C69D0B30D188AB7D8579 /* Pods_SI1_RatingView_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +72,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BF7B8B175EA2CA9361389BC1 /* Pods */,
-				201D03F71128BF3D977ED18E /* Frameworks */,
+				B470B5D145781F725E6818F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,13 +134,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B470B5D145781F725E6818F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BB42A40F206DCD7A1FFCD91 /* Pods_SI1_RatingView_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF7B8B175EA2CA9361389BC1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BE0FB312636BEDABEE564B0D /* Pods-SI1-RatingView_Example.debug.xcconfig */,
-				F2DCE9C2D42A1D329F952ED8 /* Pods-SI1-RatingView_Example.release.xcconfig */,
-				8D682E4FC9ADA7679E157B0F /* Pods-SI1-RatingView_Tests.debug.xcconfig */,
-				6807F856D7DE1C165B3109DA /* Pods-SI1-RatingView_Tests.release.xcconfig */,
+				4DC96E2F436AB21540CC7795 /* Pods-SI1-RatingView_Example.debug.xcconfig */,
+				5DFDCB802EC2542CF3A2562B /* Pods-SI1-RatingView_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,11 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SI1-RatingView_Example" */;
 			buildPhases = (
-				9774286AE12EC73740DBE58E /* [CP] Check Pods Manifest.lock */,
+				F11E66F0E94CABA00DE4E6D7 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				37AC3F7169A3ACA3BF9EFE1D /* [CP] Embed Pods Frameworks */,
+				24FC386B097B7585BE91170D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SI1-RatingView_Tests" */;
 			buildPhases = (
-				A0160995D0F683E82DAB31D9 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -262,7 +253,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37AC3F7169A3ACA3BF9EFE1D /* [CP] Embed Pods Frameworks */ = {
+		24FC386B097B7585BE91170D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,7 +271,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SI1-RatingView_Example/Pods-SI1-RatingView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9774286AE12EC73740DBE58E /* [CP] Check Pods Manifest.lock */ = {
+		F11E66F0E94CABA00DE4E6D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,28 +287,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SI1-RatingView_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A0160995D0F683E82DAB31D9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SI1-RatingView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -475,7 +444,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE0FB312636BEDABEE564B0D /* Pods-SI1-RatingView_Example.debug.xcconfig */;
+			baseConfigurationReference = 4DC96E2F436AB21540CC7795 /* Pods-SI1-RatingView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SI1-RatingView/Info.plist";
@@ -490,7 +459,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2DCE9C2D42A1D329F952ED8 /* Pods-SI1-RatingView_Example.release.xcconfig */;
+			baseConfigurationReference = 5DFDCB802EC2542CF3A2562B /* Pods-SI1-RatingView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SI1-RatingView/Info.plist";
@@ -505,7 +474,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D682E4FC9ADA7679E157B0F /* Pods-SI1-RatingView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -527,7 +495,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6807F856D7DE1C165B3109DA /* Pods-SI1-RatingView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

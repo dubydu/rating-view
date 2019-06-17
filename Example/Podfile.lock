@@ -2,15 +2,15 @@ PODS:
   - SI1-RatingView (0.1.0)
 
 DEPENDENCIES:
-  - SI1-RatingView (from `../`)
+  - SI1-RatingView
 
-EXTERNAL SOURCES:
-  SI1-RatingView:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SI1-RatingView
 
 SPEC CHECKSUMS:
-  SI1-RatingView: 645db3fff74aab0cf423265433d4dce4ca0fd9a4
+  SI1-RatingView: 0d87f072bc9a2e17be8df9cdd197f40d0687599a
 
-PODFILE CHECKSUM: 9e6821e66495fe5fb193c7d86f6d19c7ab270eec
+PODFILE CHECKSUM: 3ee28ec17eb801a4684a84857c38dbf45ee14f91
 
 COCOAPODS: 1.7.1
