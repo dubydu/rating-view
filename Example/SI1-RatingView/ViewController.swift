@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 }
 // MARK: - RatingViewDelegate
 extension ViewController: RatingViewDelegate {
-    func ratingView(_ ratingView: RatingView, didUpdate rating: Double) {
+    func didUpdateRatingView(_ ratingView: RatingView, didUpdate rating: Double) {
         if #available(iOS 10.0, *) {
             Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (_) in
                 let alert = UIAlertController(title: nil, message: "Your rating value: \(rating)", preferredStyle: .alert)
@@ -54,7 +54,7 @@ extension ViewController: RatingViewDelegate {
         }
     }
     
-    func ratingView(_ ratingView: RatingView, isUpdating rating: Double) {
+    func isUpdateRatingView(_ ratingView: RatingView, isUpdating rating: Double) {
         ratingValueLabel.text = String(rating)
         print("Is update rating view \(rating)")
     }
