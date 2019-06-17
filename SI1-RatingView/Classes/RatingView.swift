@@ -9,8 +9,8 @@
 import UIKit
 
 public protocol RatingViewDelegate: NSObjectProtocol {
-    func didUpdateRatingView(_ ratingView: RatingView, didUpdate rating: Double)
-    func isUpdateRatingView(_ ratingView: RatingView, isUpdating rating: Double)
+    func ratingView(_ ratingView: RatingView, didUpdate rating: Double)
+    func ratingView(_ ratingView: RatingView, isUpdating rating: Double)
 }
 
 @IBDesignable open class RatingView: UIView {
@@ -225,7 +225,7 @@ public protocol RatingViewDelegate: NSObjectProtocol {
         currentRatingValue = newRating < Double(minRatingValue) ? Double(minRatingValue) : newRating
         
         // Update delegate
-        delegate?.isUpdateRatingView(self, isUpdating: currentRatingValue)
+        delegate?.ratingView(self, isUpdating: currentRatingValue)
     }
     
     // Override to calculate ImageView frames
@@ -271,11 +271,11 @@ public protocol RatingViewDelegate: NSObjectProtocol {
     }
     
     override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        delegate?.didUpdateRatingView(self, didUpdate: currentRatingValue)
+        delegate?.ratingView(self, didUpdate: currentRatingValue)
     }
     
     override open func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        delegate?.didUpdateRatingView(self, didUpdate: currentRatingValue)
+        delegate?.ratingView(self, didUpdate: currentRatingValue)
     }
 }
 
