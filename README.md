@@ -21,8 +21,7 @@ pod 'SI1-RatingView'
 ```
 
 ## Author
-
-SI-Du, du.bv@neo-lab.vn
+dubydu, du.bv@neo-lab.vn
 
 ## License
 
